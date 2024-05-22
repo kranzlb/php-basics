@@ -2,9 +2,9 @@
 
 
 require("includes/common.inc.php");
-require("includes/filedir.inc.php");
+require("includes/config.inc.php");
 
-define("ROOTVZ","./Ablage/"); //Konstante; Variable: $rootVZ = "./Ablage/";
+define("ROOTVZ","./"); //Konstante; Variable: $rootVZ = "./Ablage/";
 $aktuellesVZ = ROOTVZ; //wir gehen einmal davon aus, dass zunächst der Inhalt des Hauptverzeichnisses für die Ablage angezeigt werden soll; das kann sich jedoch später ändern, wenn der User den Inhalt eines anderen Verzeichnisses sehen möchte
 
 $msg = ""; //Ausgabevariable für Erfolgs- und Misserfolgsmeldungen
